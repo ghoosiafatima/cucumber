@@ -1,4 +1,3 @@
-
 Feature: SauceDemo Login
 
   Scenario: Successful login with valid credentials
