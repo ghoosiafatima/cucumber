@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# Build output
+dist/
+build/
+coverage/
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Test output
+*.tsbuildinfo
+allure-results/
+mochawesome-report/
