@@ -1,6 +1,4 @@
 Feature: Weather Shopper Site
-
-  Scenario: Check temperature is displayed and below 19°C
-    Given I open the Weather Shopper homepage
-    Then I should see the temperature displayed
-   
+  Scenario: Navigate to product page based on current temperature
+    When I open the Weather Shopper homepage
+    Then I check the temperature and navigate accordingly
