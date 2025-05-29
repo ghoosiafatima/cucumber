@@ -1,4 +1,6 @@
 Feature: Weather Shopper Site
   Scenario: Navigate to product page based on current temperature
-    When I open the Weather Shopper homepage
-    Then I check the temperature and navigate accordingly
+    Given I open the Weather Shopper homepage
+    When I check the temperature and navigate accordingly
+    When I add the products to the cart
+    Then Successfully bought the product based upon temperature
