@@ -3,4 +3,5 @@ Feature: Weather Shopper Site
     Given I open the Weather Shopper homepage
     When I check the temperature and navigate accordingly
     When I add the products to the cart
+    When I verify the checkout page information
     Then Successfully bought the product based upon temperature

@@ -2,6 +2,10 @@
 
 This project uses [WebdriverIO](https://webdriver.io/) with the [Cucumber](https://cucumber.io/) framework for end-to-end testing.
 
+## Test cases split
+
+![Weather Shopper Test Cases](assets/testcases.png)
+
 ## Project Structure
 
 - `features/` - Contains feature files, step definitions, and page objects
