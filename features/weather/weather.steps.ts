@@ -1,6 +1,5 @@
 import { When, Then, Given } from "@cucumber/cucumber";
 import { WeatherActions } from './action.ts';
-import { paymentActions } from './action.ts';
 
 let temperature: number;
 let expectedItems: { name: string; price: number }[] = [];
